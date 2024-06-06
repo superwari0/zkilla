@@ -20,3 +20,7 @@ nohup ./zkilla.sh >/dev/null 2>&1 &
 ```
 pkill -f zkilla.sh
 ```
+
+## Additional config
+1. Open  -> System Settings -> Search `Login Items`.
+2. Switch off `Zscaler inc` in the background.
