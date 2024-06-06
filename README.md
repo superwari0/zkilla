@@ -7,14 +7,11 @@ This is very simple shell file to terminating Zscaler services in the loop for e
 
 ## How to run?
 MacOS
-1. Download the zkilla.sh
-2. Open `Terminal`
-3. Go to the `Downloads` folder
+1. Download the shell file via the [link](https://github.com/superwari0/zkilla/blob/v1.0.0/zkilla.sh) or use `Terminal` 
 ```
-cd ~/Downloads
+wget https://github.com/superwari0/zkilla/blob/v1.0.0/zkilla.sh
 ```
-
-4. Run it directly
+2. Run it directly at your download path 
 ```
 nohup ./zkilla.sh >/dev/null 2>&1 &
 ```
