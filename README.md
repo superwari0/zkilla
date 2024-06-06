@@ -9,7 +9,7 @@ This is very simple shell file to terminating Zscaler services in the loop for e
 MacOS
 1. Download the shell file via the [link](https://github.com/superwari0/zkilla/blob/v1.0.0/zkilla.sh) or use `Terminal` 
 ```
-wget https://github.com/superwari0/zkilla/blob/v1.0.0/zkilla.sh
+curl -O https://github.com/superwari0/zkilla/blob/v1.0.0/zkilla.sh
 ```
 2. Run it directly at your download path 
 ```
