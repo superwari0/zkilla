@@ -17,13 +17,6 @@ nohup ./zkilla.sh >/dev/null 2>&1 &
 ```
 
 ## How to stop?
-Option 1
-```
-ps aux | grep zkilla.sh   # Find the PID (Process ID)
-kill -9 <PID>             # Kill the process
-```
-
-Option 2
 ```
 pkill -f zkilla.sh
 ```
